@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: fixed;
+            width: 240px;
+            height: 100%;
+            background-color: lightpink;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cont1 {
+            width: 100%;
+            height: 50px;
+            background-color: brown;
+            border: 1px solid;
+        }
+
+        .cont1:first-child {
+            background-color: blue;
+            margin-bottom: auto;
+        }
+
+        .cont1:last-child {
+            background-color: yellow;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cont1"></div>
+        <div class="cont1"></div>
+        <div class="cont1"></div>
+        <div class="cont1"></div>
+        <div class="cont1"></div>
+        <div class="cont1"></div>
+    </div>
+</body>
+</html>
